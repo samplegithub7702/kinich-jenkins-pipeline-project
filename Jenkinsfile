@@ -28,4 +28,12 @@ pipeline {
                 sh "echo 'Delivery complete'"
             }
         }
+        stage('Deploy') {
+            steps {
+                sh "echo 'Performing deployment'"
+                sh "echo 'Deployment complete'"
+            }
+        }
+    }
+}
  
