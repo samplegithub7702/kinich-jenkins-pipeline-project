@@ -26,7 +26,6 @@ pipeline {
         stage('Delivery') {
             steps {
                 sh "echo 'Performing delivery'"
-                // Add your delivery steps here
                 sh "echo 'Delivery complete'"
             }
         }
