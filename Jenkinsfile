@@ -19,12 +19,14 @@ pipeline {
         stage('Unit Test') {
             steps {
                 sh "echo 'Performing unit tests'"
+                // Add your unit test command(s) here
                 sh "echo 'Unit tests complete'"
             }
         }
         stage('Delivery') {
             steps {
                 sh "echo 'Performing delivery'"
+                // Add your delivery steps here
                 sh "echo 'Delivery complete'"
             }
         }
@@ -36,5 +38,6 @@ pipeline {
         }
     }
 }
+
 
  
